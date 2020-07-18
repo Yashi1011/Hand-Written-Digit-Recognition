@@ -1,12 +1,12 @@
-h2{
+h1{
   text-align: center;
   color: white;
   background-color: black;
-  padding: 20px;
+  padding: 25px;
 }
 
 body{
-  background-color: rgb(172, 136, 206);
+  background-color: #ff847c;
 }
      
 .flex-two {
