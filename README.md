@@ -10,8 +10,6 @@
   - [Prerequisites](#prerequisites)
   - [Running in localhost](#running-in-localhost)
 
----
-
 <!-- ABOUT THE PROJECT -->
 
 ## ✨About The Project
@@ -30,8 +28,6 @@ These are the tools and libraries which I used to build this web app.
 - [JQuery](https://jquery.com)
 - [Tensorflow](https://www.tensorflow.org/api_docs/python/tf)
 - [Tensorflowjs](https://www.tensorflow.org/js/tutorials/conversion/import_saved_model)
-
----
 
 <!-- GETTING STARTED -->
 
@@ -65,4 +61,4 @@ jupyter notebook
 git clone https://github.com/Yashi1011/Hand-Written-Digit-Recognition.git
 ```
 
-2. Start the server and open the `Digit-Recognition/index.html` in localhost.
+2. Start the server and open `Digit-Recognition/index.html` in localhost.
