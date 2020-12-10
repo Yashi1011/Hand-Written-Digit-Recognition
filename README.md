@@ -1,14 +1,4 @@
-# Hand-Written-Digit-Recognition
-
-<!-- TABLE OF CONTENTS -->
-
-## 📜Table of Contents
-
-- [About the Project](#✨about-the-project)
-  - [Built With](#🧱built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Running in localhost](#running-in-localhost)
+# 🖋 Hand-Written-Digit-Recognition
 
 <!-- ABOUT THE PROJECT -->
 
@@ -18,9 +8,9 @@
 
 It is a web app that will predict the hand written digits `0-9` we write.
 
-### 🧱Built With
+### 🧱Tech Used
 
-These are the tools and libraries which I used to build this web app.
+These are the tools and libraries which were used to build this web app.
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -31,29 +21,18 @@ These are the tools and libraries which I used to build this web app.
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## 🚀Getting Started
 
-### Prerequisites
+### 👩🏼‍💻Prerequisites
 
-The following prerequisites are required to run this in you local system.
+The following are required to run this in you local system.
 
-- Any Server - I personally used `XAMPP`
+- A Server - `XAMPP`
 
 - Jupyter notebook
 
-To install jupyter notebook, use this command in **cmd**
 
-```sh
-pip install notebook
-```
-
-and to open it in you the given directory, open that directory in **cmd** and type
-
-```sh
-jupyter notebook
-```
-
-### Running in localhost
+### 🏡Running in localhost
 
 1. After having all the required prerequisites **clone** the repository. If you are using `XAMPP` clone it in `XAMPP/htdocs` folder.
 
