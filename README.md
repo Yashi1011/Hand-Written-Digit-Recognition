@@ -4,7 +4,7 @@
 
 ## ✨About The Project
 
-![product-screenshot](images/screen.png)
+<img src="https://github.com/Yashi1011/Hand-Written-Digit-Recognition/blob/master/images/screen.png" width=700px>
 
 It is a web app that will predict the hand written digits `0-9` we write.
 
