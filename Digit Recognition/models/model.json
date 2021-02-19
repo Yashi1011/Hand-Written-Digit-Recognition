@@ -1,15 +1,25 @@
 {
   "format": "layers-model",
-  "generatedBy": "keras v2.3.0-tf",
-  "convertedBy": "TensorFlow.js Converter v2.0.1.post1",
+  "generatedBy": "keras v2.4.0",
+  "convertedBy": "TensorFlow.js Converter v3.1.0",
   "modelTopology": {
-    "keras_version": "2.3.0-tf",
+    "keras_version": "2.4.0",
     "backend": "tensorflow",
     "model_config": {
       "class_name": "Sequential",
       "config": {
         "name": "sequential_1",
         "layers": [
+          {
+            "class_name": "InputLayer",
+            "config": {
+              "batch_input_shape": [null, 28, 28, 1],
+              "dtype": "float32",
+              "sparse": false,
+              "ragged": false,
+              "name": "flatten_1_input"
+            }
+          },
           {
             "class_name": "Flatten",
             "config": {
@@ -26,7 +36,7 @@
               "name": "dense_3",
               "trainable": true,
               "dtype": "float32",
-              "units": 60,
+              "units": 64,
               "activation": "relu",
               "use_bias": true,
               "kernel_initializer": {
@@ -47,7 +57,7 @@
               "name": "dense_4",
               "trainable": true,
               "dtype": "float32",
-              "units": 30,
+              "units": 32,
               "activation": "relu",
               "use_bias": true,
               "kernel_initializer": {
@@ -83,16 +93,25 @@
               "bias_constraint": null
             }
           }
-        ],
-        "build_input_shape": [null, 28, 28, 1]
+        ]
       }
     },
     "training_config": {
-      "loss": "categorical_crossentropy",
-      "metrics": ["accuracy"],
+      "loss": "sparse_categorical_crossentropy",
+      "metrics": [
+        [
+          {
+            "class_name": "MeanMetricWrapper",
+            "config": {
+              "name": "accuracy",
+              "dtype": "float32",
+              "fn": "sparse_categorical_accuracy"
+            }
+          }
+        ]
+      ],
       "weighted_metrics": null,
       "loss_weights": null,
-      "sample_weight_mode": null,
       "optimizer_config": {
         "class_name": "Adam",
         "config": {
@@ -111,11 +130,11 @@
     {
       "paths": ["group1-shard1of1.bin"],
       "weights": [
-        { "name": "dense_3/kernel", "shape": [784, 60], "dtype": "float32" },
-        { "name": "dense_3/bias", "shape": [60], "dtype": "float32" },
-        { "name": "dense_4/kernel", "shape": [60, 30], "dtype": "float32" },
-        { "name": "dense_4/bias", "shape": [30], "dtype": "float32" },
-        { "name": "dense_5/kernel", "shape": [30, 10], "dtype": "float32" },
+        { "name": "dense_3/kernel", "shape": [784, 64], "dtype": "float32" },
+        { "name": "dense_3/bias", "shape": [64], "dtype": "float32" },
+        { "name": "dense_4/kernel", "shape": [64, 32], "dtype": "float32" },
+        { "name": "dense_4/bias", "shape": [32], "dtype": "float32" },
+        { "name": "dense_5/kernel", "shape": [32, 10], "dtype": "float32" },
         { "name": "dense_5/bias", "shape": [10], "dtype": "float32" }
       ]
     }

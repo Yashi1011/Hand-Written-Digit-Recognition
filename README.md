@@ -29,9 +29,6 @@ The following are required to run this in you local system.
 
 - A Server - `XAMPP`
 
-- Jupyter notebook
-
-
 ### 🏡Running in localhost
 
 1. After having all the required prerequisites **clone** the repository. If you are using `XAMPP` clone it in `XAMPP/htdocs` folder.
